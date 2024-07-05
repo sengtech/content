@@ -29,6 +29,3 @@ New-MgDomain -BodyParameter $params
 ```
 Confirm-MgDomain -DomainId "yourdomain.com"
 ```
-![alt text](images/CS_2024-07-05_2106.png)
-
-<img src="images/CS_2024-07-05_2106.png" width=30%>

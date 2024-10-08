@@ -16,7 +16,10 @@
 
 ### Microsoft Entra Private Access
 [Product Page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-private-access)
+
 [Microsoft Entra private network connector](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+
+[Global Secure Access client for Windows](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 
 ### Microsoft Entra Internet Access
 [Product page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-internet-access)

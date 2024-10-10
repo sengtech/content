@@ -5,8 +5,9 @@
 [Manage an external authentication method in Microsoft Entra ID (Preview)](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-authentication-external-method-manage)
 [Discovery of provider metadata](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-external-method-provider#discovery-of-provider-metadata)
 
-> An external identity provider needs to provide an OIDC Discovery endpoint. This endpoint is used to get more configuration data. The full URL, including .well-known/oidc-configuration, must be included in the Discovery URL configured when the EAM is created.
-<br>
+> An external identity provider needs to provide an OIDC Discovery endpoint. This endpoint is used to get more configuration data. The full URL, including .well-known/oidc-configuration, must be included in the Discovery URL configured when the EAM is created. <br>
+
+> Microsoft Entra ID uses the OIDC implicit flow to communicate with the external identity provider. Using this flow, communication with the provider is done exclusively by using the provider's authorization endpoint. To let the provider know the user for whom Microsoft Entra ID is making the request, Microsoft Entra ID passes a token in through the id_token_hint parameter. <br>
 
 Discovery of Microsoft Entra ID metadata
 Providers also need to retrieve the public keys of Microsoft Entra ID to validate the tokens issued by Microsoft Entra ID.

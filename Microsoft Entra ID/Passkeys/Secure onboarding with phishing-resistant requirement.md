@@ -4,7 +4,6 @@
 > This is mostly a visualisation of the workaround suggestion this Microsoft Learn page<br>
 > [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-support-authenticator-passkey#workarounds-for-an-authentication-strength-conditional-access-policy-loop)
 <br>
-<br>
+![CS_2024-10-22_2007@2x](https://github.com/user-attachments/assets/3a29d8d2-3c59-4713-a6cb-7288899d4e08)
 
-![CS_2024-10-22_1940@2x](https://github.com/user-attachments/assets/882c969a-f883-4e53-9665-282fa87cf26c)
 

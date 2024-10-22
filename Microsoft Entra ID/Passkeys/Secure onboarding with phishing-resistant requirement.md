@@ -1,7 +1,7 @@
 # Secure onboarding in Microsoft Entra ID, while requiring phishing-resistant authentication for All Cloud Apps
 
 > [!NOTE]
-> This is mostly a visualisation of the workaround suggestion this Microsoft Learn page<br>
+> This primarily visualizes the workaround suggested on this Microsoft Learn page.<br>
 > [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-support-authenticator-passkey#workarounds-for-an-authentication-strength-conditional-access-policy-loop)
 <br>
 

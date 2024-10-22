@@ -1,4 +1,4 @@
-# Secure onboarding in Microsoft Entra ID, while requiring phising-resistant authentication for All Cloud Apps
+# Secure onboarding in Microsoft Entra ID, while requiring phishing-resistant authentication for All Cloud Apps
 
 > [!NOTE]
 > This is mostly a visualisation of the workaround suggestion this Microsoft Learn page<br>

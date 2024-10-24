@@ -22,8 +22,31 @@
 
 ### 💻 Client Device
 
+- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 - Windows 10/11 - Hybrid- or Entra joined
+- Azure Virtual Desktop single-session and Windows 365 is supported
+- Local administrator credentials are required to install or upgrade the client
 - Android - Defender app installed
+
+### 🌐 Microsoft Entra private network connector
+
+- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+- Min. Windows Server 2016
+- Focus on CPU and Networking for machine sizing
+- Azure and AWS Marketplace offering also available
+- Line of sight to destination application needed
+- Currently doesn’t support multi-geo connectors. The cloud service instances for your connector are chosen in the same region as your Microsoft Entra tenant (or the closest region to it) even if you have connectors installed in regions different from your default region.
+
+### 🔒 Entra ID
+
+- Group for PoC users
+- Break-glass accounts provided
+
+### 👤 Kerberos SSO
+
+- The latest version of the Microsoft Entra Private Access connector is installed on a Windows server that has access to your domain controllers
+- All domain controllers will be published through Private Access (see details below)
+- Private DNS with suffixes
 
 ### 💼 Entra ID roles
 
@@ -48,3 +71,9 @@ Please note all domaincontrollers in your environment
 | --- | --- | --- |
 |  |  |  |
 |  |  |  |
+
+List DNS suffixes to be published:
+
+## **⚠️ Known limitations**
+
+- Disable DNS over HTTPS (Secure DNS)

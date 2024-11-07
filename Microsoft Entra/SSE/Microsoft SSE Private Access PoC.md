@@ -22,8 +22,7 @@
 
 ### 💻 Client Device
 
-- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
-- [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
+- [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 - Windows 10/11 - Hybrid- or Entra joined
 - Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client
@@ -31,7 +30,8 @@
 
 ### 🌐 Microsoft Entra private network connector
 
-- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+- [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+- [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
 - Min. Windows Server 2016
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available

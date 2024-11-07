@@ -54,6 +54,7 @@
 - Global Secure Access Administrator
 - Application Administrator
 - Conditional Access Administrator
+- For installing Private Network Connector: At least Application Administrator
 
 ## Application Segments
 

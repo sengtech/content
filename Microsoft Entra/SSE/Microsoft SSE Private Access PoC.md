@@ -23,6 +23,7 @@
 ### 💻 Client Device
 
 - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
+- [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
 - Windows 10/11 - Hybrid- or Entra joined
 - Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client

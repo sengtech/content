@@ -13,6 +13,7 @@
 [Product Page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-private-access)<br>
 [Microsoft Entra private network connector](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)<br>
 [Global Secure Access client for Windows](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
+[Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
 
 ### Microsoft Entra Internet Access
 [Product page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-internet-access)

@@ -13,6 +13,7 @@
 - Granular apps or QuickAccess (VPN like)
 - Kerberos SSO to AD resources?
 - Conditional Access policies
+- ⚠️ Existing conflicting DirectAccess (DA) or legacy VPN configurations. In particular NRPT-table entries.
 
 ## Prerequisites
 

@@ -13,6 +13,7 @@
 - Granular apps or QuickAccess (VPN like)
 - Kerberos SSO to AD resources?
 - Conditional Access policies
+- ⚠️ Existing conflicting DirectAccess (DA) or legacy VPN configurations. In particular NRPT-table entries.
 
 ## Prerequisites
 
@@ -22,7 +23,7 @@
 
 ### 💻 Client Device
 
-- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
+- [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 - Windows 10/11 - Hybrid- or Entra joined
 - Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client
@@ -30,7 +31,8 @@
 
 ### 🌐 Microsoft Entra private network connector
 
-- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+- [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
+- [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
 - Min. Windows Server 2016
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available
@@ -53,6 +55,7 @@
 - Global Secure Access Administrator
 - Application Administrator
 - Conditional Access Administrator
+- For installing Private Network Connector: At least Application Administrator
 
 ## Application Segments
 
@@ -76,4 +79,6 @@ List DNS suffixes to be published:
 
 ## **⚠️ Known limitations**
 
-- Disable DNS over HTTPS (Secure DNS)
+- Disable DNS over HTTPS (Secure DNS) | [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#dns-over-https-not-supported)
+- Disable QUIC | [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#quic-disabled-in-microsoft-edge)
+- Guidance on disabling IPv6 on Windows | [Link](https://learn.microsoft.com/troubleshoot/windows-server/networking/configure-ipv6-in-windows#:~:text=will%20be%20preferred.-,Disable%20IPv6,-Decimal%20255%0AHexadecimal)

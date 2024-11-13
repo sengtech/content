@@ -61,14 +61,14 @@ A great way to selectively test groups of users with cloud authentication capabi
 
 - Test the new sign-in method
 - Remove a user from staged rollout
-
+<br><br><br>
 # Decommission AD FS infrastructure
-
+<br><br><br>
 # Notes
 
 - When you migrate from federated to cloud authentication, the process to convert the domain from federated to managed may take up to 60 minutes. During this process, users might not be prompted for credentials for any new logins to Microsoft Entra admin center or other browser based applications protected with Microsoft Entra ID. We recommend that you include this delay in your maintenance window.
 - Consider planning cutover of domains during off-business hours in case of rollback requirements.
-
+<br><br><br>
 # Links and Resources
 
 [Migrate from federation to cloud authentication](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/migrate-from-federation-to-cloud-authentication)

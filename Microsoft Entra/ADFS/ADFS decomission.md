@@ -4,7 +4,7 @@
 
 ### Required roles
 
-- Manage federation settings - Global Administrator + Graph Powershell permission "Domain.ReadWrite.All", "Directory.AccessAsUser.All”
+- Manage federation settings - Global Administrator + Graph Powershell permission `"Domain.ReadWrite.All", "Directory.AccessAsUser.All”`
 - Staged rollout - Hybrid Identity Administrator
 <br><br>
 ## Things to consider
@@ -38,7 +38,7 @@ A great way to selectively test groups of users with cloud authentication capabi
 <br><br>
 ## Document current federation settings
 
-`Get-MgDomainFederationConfiguration -DomainID [yourdomain.com](http://yourdomain.com/)`
+`Get-MgDomainFederationConfiguration -DomainID yourdomain.com`
 <br><br>
 ## Employee communication
 

@@ -65,6 +65,18 @@ A great way to selectively test groups of users with cloud authentication capabi
 - Remove a user from staged rollout
 <br><br>
 ## Decommission AD FS infrastructure
+### High Level Steps
+
+- Fully documented https://aka.ms/adfsdecom
+- Take final backup
+- Remove entries from load balancers/DNS
+- Uninstall Remote Access role from WAP servers
+- Uninstall ADFS role from ADFS servers
+- Delete ADFS Database (WID/SQL)
+- Delete ADFS Certificates
+- Delete ADFS Service Account
+- Delete certificate sharing container in Active Directory
+- Retire/reformat server disks
 <br><br>
 ## Notes
 

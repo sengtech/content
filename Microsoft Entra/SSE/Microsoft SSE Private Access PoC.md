@@ -33,6 +33,7 @@
 
 - [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
 - [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
+- ⚠️ Domain join the connector or not? [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#recommendations-for-the-connector-server)
 - Min. Windows Server 2016
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available

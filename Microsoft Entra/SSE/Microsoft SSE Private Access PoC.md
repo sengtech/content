@@ -28,6 +28,7 @@
 - Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client
 - Android - Defender app installed
+- iOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
 
 ### 🌐 Microsoft Entra private network connector
 

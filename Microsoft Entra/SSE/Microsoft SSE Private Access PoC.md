@@ -29,6 +29,7 @@
 - Local administrator credentials are required to install or upgrade the client
 - Android - Defender app installed
 - iOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
+- Hardening - [Link](https://microsoft.github.io/GlobalSecureAccess/How-To/HardenWinGSA)
 
 ### 🌐 Microsoft Entra private network connector
 

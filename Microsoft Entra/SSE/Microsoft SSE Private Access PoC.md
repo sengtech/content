@@ -49,11 +49,15 @@
 - Group for PoC users
 - Break-glass accounts provided
 
-### 👤 Kerberos SSO
+### 👤 AD Kerberos SSO
 
+- [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-kerberos-sso)
 - The latest version of the Microsoft Entra Private Access connector is installed on a Windows server that has access to your domain controllers
 - All domain controllers will be published through Private Access (see details below)
 - Private DNS with suffixes
+- How does the users login to Windows? 
+    - Using password? No extra steps are needed
+    - Windows Hello for Business - Deploy Cloud Kerberos Trust
 
 ### 💼 Entra ID roles
 

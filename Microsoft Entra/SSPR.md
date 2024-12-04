@@ -41,7 +41,7 @@ For hybrid deployment
 
 ### 🔀 Administrator reset policy differences
 
-By default, administrator accounts are enabled for self-service password reset, and a strong default two-gate password reset policy is enforced.
+By default, administrator accounts are enabled for self-service password reset, and a strong default two-gate password reset policy is enforced. Administrators with sensitive roles should use phishing-resistant authentication methods only and therefore ***not*** able to reset their password using SSPR.
 [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-policy#administrator-reset-policy-differences) 
 
 ### 🔗 Links

@@ -2,7 +2,7 @@
 
 ### 💡Why?
 
-Microsoft Entra self-service password reset (SSPR) lets users reset their passwords in the cloud
+Microsoft Entra self-service password reset (SSPR) lets users reset their passwords in the cloud. Password changes for synced users can be written back to on-preminses AD using Password Writeback.
 
 ### ✅ Prerequisites
 
@@ -18,7 +18,7 @@ For hybrid deployment
 3. Enable password writeback in Microsoft Entra ID
 4. Set minimum password age policy
     1. The group policy for Minimum password age must be set to 0 for password writeback to work most efficiently.
-    2. Browse to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
+    2. Browse to Default Domain Policy > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
 
 ### 🤔 Considerations
 
@@ -26,9 +26,9 @@ For hybrid deployment
 
 ### 🚪End user portals
 
-[aka.ms/sspr](http://aka.ms/sspr)
+[aka.ms/sspr](https://aka.ms/sspr)
 
-[aka.ms/mysecurityinfo](https://www.notion.so/07a29650fa30474287c4f533ee97fb4e?pvs=21)
+[aka.ms/mysecurityinfo](https://aka.ms/mysecurityinfo)
 
 ### 🔐 What authentication methods are available for SSPR?
 

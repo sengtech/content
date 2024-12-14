@@ -6,7 +6,7 @@
 
 - Manage federation settings - Global Administrator + Graph Powershell permission `"Domain.ReadWrite.All", "Directory.AccessAsUser.All”`
 - Staged rollout - Hybrid Identity Administrator
-<br><br>
+
 ## Things to consider
 
 - Organization branding
@@ -31,24 +31,24 @@
 
 - Entra ID Protection
 - Smart Lockout - [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-smart-lockout)
-<br><br>
+
 ## Staged rollout
 
 A great way to selectively test groups of users with cloud authentication capabilities like Microsoft Entra multifactor authentication, Conditional Access, Microsoft Entra ID Protection for leaked credentials, Identity Governance, and others, before cutting over your domains.
-<br><br>
+
 ## Document current federation settings
 
 `Get-MgDomainFederationConfiguration -DomainID yourdomain.com`
-<br><br>
+
 ## Employee communication
 
 - The user sign-in experience for accessing Microsoft 365 and other resources that are authenticated through Microsoft Entra ID changes.
-<br><br>
+
 ## Plan rollback
 
 - Take screenshots of the existing configuration of your app
 - Be aware of the apps that support multiple IdPs since they provide an easier rollback plan
-<br><br>
+
 ## Switching sign-in method
 
 ### Option A - Using Microsoft Entra Connect
@@ -58,12 +58,12 @@ A great way to selectively test groups of users with cloud authentication capabi
 ### Option B - Using Microsoft Entra Connect and PowerShell
 
 [Link](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/migrate-from-federation-to-cloud-authentication#option-b)
-<br><br>
+
 ## Complete your migration
 
 - Test the new sign-in method
 - Remove a user from staged rollout
-<br><br>
+
 ## Decommission AD FS infrastructure
 ### High Level Steps
 
@@ -77,12 +77,14 @@ A great way to selectively test groups of users with cloud authentication capabi
 - Delete ADFS Service Account
 - Delete certificate sharing container in Active Directory
 - Retire/reformat server disks
-<br><br>
-## Notes
 
+## Notes
 - When you migrate from federated to cloud authentication, the process to convert the domain from federated to managed may take up to 60 minutes. During this process, users might not be prompted for credentials for any new logins to Microsoft Entra admin center or other browser based applications protected with Microsoft Entra ID. We recommend that you include this delay in your maintenance window.
 - Consider planning cutover of domains during off-business hours in case of rollback requirements.
-<br><br>
+
+## Notes from the field
+- "Option A" from migration guide never changed the domain setting from "Federated" to "Managed". Instead got stuck and even froze the Entra Conenct sync process. Choose "Option B" instead, with configuring the Entra Connect sync option to "Do not configure", and swithching the domain mode to "Managed", by using Graph PowerShell
+
 ## Links and Resources
 
 [Migrate from federation to cloud authentication](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/migrate-from-federation-to-cloud-authentication)

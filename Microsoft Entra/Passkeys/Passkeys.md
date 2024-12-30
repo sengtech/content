@@ -64,15 +64,19 @@ They count as something that a user has (physical device or security key) and so
 
 - Microsoft Graph PowerShell script | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-enable-authenticator-passkey#find-aaguids)
 
-### Notes
-
-- B2B collaboration users
-    - Registration of passkey (FIDO2) credentials isn't supported for B2B collaboration users in the resource tenant | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-enable-passkey-fido2#b2b-collaboration-users)
-
 ### Workarounds
 
 - [Authentication strength Conditional Access policy loop | Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-support-authenticator-passkey#workarounds-for-an-authentication-strength-conditional-access-policy-loop)
 - [Users who can't register passkeys because of Require approved client app or Require app protection policy Conditional Access grant controls](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-support-authenticator-passkey#workarounds-for-users-who-cant-register-passkeys-because-of-require-approved-client-app-or-require-app-protection-policy-conditional-access-grant-controls)
+
+### Upcoming changes
+
+- [MC920300 - Microsoft Entra: Enablement of Passkeys in Authenticator for passkey (FIDO2) organizations with no key restrictions](https://mc.merill.net/message/MC920300)
+
+### Notes
+
+- B2B collaboration users
+    - Registration of passkey (FIDO2) credentials isn't supported for B2B collaboration users in the resource tenant | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-enable-passkey-fido2#b2b-collaboration-users)
 
 ### Links
 

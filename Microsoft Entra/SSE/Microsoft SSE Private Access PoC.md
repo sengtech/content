@@ -88,6 +88,7 @@ List DNS suffixes to be published:
 
 ## 🔎 Reference
 - [Web content filtering categories](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-web-content-filtering-categories)
+- [What is the difference between Microsoft Entra Internet Access web categories and Microsoft Defender for Endpoint web categories?](https://learn.microsoft.com/en-us/entra/global-secure-access/resource-faq#what-is-the-difference-between-microsoft-entra-internet-access-web-categories-and-microsoft-defender-for-endpoint-web-categories--)
 
 ## **⚠️ Known limitations**
 

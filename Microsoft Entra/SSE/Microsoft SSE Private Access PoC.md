@@ -86,6 +86,9 @@ Please note all domaincontrollers in your environment
 
 List DNS suffixes to be published:
 
+## 🔎 Reference
+- [Web content filtering categories](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-web-content-filtering-categories)
+
 ## **⚠️ Known limitations**
 
 - Disable DNS over HTTPS (Secure DNS) | [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#dns-over-https-not-supported)

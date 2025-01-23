@@ -5,7 +5,8 @@
 > [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-support-authenticator-passkey#workarounds-for-an-authentication-strength-conditional-access-policy-loop)
 <br>
 
-![CS_2024-10-22_2007@2x](https://github.com/user-attachments/assets/a00c943c-c77b-4226-ac61-7242c30e6748)
+![CS_2025-01-23_1342@2x](https://github.com/user-attachments/assets/1fa08b15-99d6-4e61-b9f5-49425383ac55)
+
 
 
 

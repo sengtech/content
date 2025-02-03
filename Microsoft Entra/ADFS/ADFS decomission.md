@@ -10,6 +10,7 @@
 ## Things to consider
 
 - Organization branding
+- Device enrollment ⚠️
 
 ### Logon Hours
 

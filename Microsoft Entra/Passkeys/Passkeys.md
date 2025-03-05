@@ -14,18 +14,18 @@ They count as something that a user has (physical device or security key) and so
 
 ### Types of passkeys
 
-- Device bound
+- **Device bound**
     - Cannot leave the issued device, and cannot be synced across devices
     - Pros
         - Higher level of security and assurance (compared to syncable passkeys)
     - Cons
         - A more difficult recovery process
-- Syncable
+- **Syncable**
     - Synced between a user's various devices. The passkeys are stored securely with a password or credential manager such as Apple Passwords, Google Password Manager, 1Password, Dashlane or LastPass. Users can access synced passkeys across many of their devices, even new ones, without having to re-enroll every device on every account.
-    - Pros
+    - **Pros**
         - Better user exeperience
         - Easy recovery process
-    - Cons
+    - **Cons**
         - Synced Passkeys are easy to share (e.g. Airdrop), and could be stored in a private consumer cloud services, which could raise questions regarding work credentials.
 
 ### Microsoft Entra ID offers the following phishing-resistant passwordless authentication options
@@ -39,12 +39,6 @@ They count as something that a user has (physical device or security key) and so
 ### Enable passkeys in Microsoft Authenticator
 
 - [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-enable-authenticator-passkey)
-- Settings
-    - Allow self-service set up: Yes
-    - Enforce attestation: Yes
-    - Enforce key restrictions: Yes
-    - Restrict specific keys: Allow
-        - Add Microsoft Authenticator (Preview), and existing AAGUID
 
 ### User Onboarding
 
@@ -54,9 +48,9 @@ They count as something that a user has (physical device or security key) and so
 ### Attestation
 
 - Microsoft Entra ID tries to verify the legitimacy of the passkey being created. When the user is registering a passkey in the Authenticator, attestation verifies that the legitimate Microsoft Authenticator app created the passkey by using Apple and Google service.
-- iOS Authentication
+- **iOS Authentication**
     - [iOS App Attest service](https://developer.apple.com/documentation/devicecheck/preparing-to-use-the-app-attest-service)
-- Android
+- **Android**
     - [Play Integrity API](https://developer.android.com/google/play/integrity/overview)
     - [Key attestation by Android](https://developer.android.com/privacy-and-security/security-key-attestation)
 

@@ -80,5 +80,3 @@ They count as something that a user has (physical device or security key) and so
 
 [Passkey (FIDO2) authentication matrix with Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-fido2-compatibility)
 
-![CS_2024-12-30_1043@2x](https://github.com/user-attachments/assets/0f83e662-066f-4163-9ec0-7a3e6066c9ee)
-

@@ -1,4 +1,6 @@
-# Deployment guide
+# MDI - Deployment guide
+
+<br>
 
 ## Prerequisites
 
@@ -13,8 +15,7 @@
 
 ### ➡️ Licensing requirements
 
-[Link](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites#licensing-requirements)
-
+- [Link](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites#licensing-requirements)
 - Enterprise Mobility + Security E5 (EMS E5/A5)
 - Microsoft 365 E5 (Microsoft E5/A5/G5)
 - Microsoft 365 E5/A5/G5/F5 Security
@@ -30,7 +31,7 @@
 - [Link](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites#required-ports)
 - Verify that the servers you intend to install Defender for Identity sensors on can reach the Defender for Identity cloud service. From each server, try accessing: `https://*your-workspace-name*sensorapi.atp.azure.com`
 
----
+<br>
 
 ## Deployment steps
 

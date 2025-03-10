@@ -27,15 +27,19 @@
 - Windows 10/11 - Hybrid- or Entra joined
 - Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client
-- Android - Defender app installed
-- iOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
+- Android - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-android-client?tabs=device-administrator)
+- iOS/iPadOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
 - Hardening - [Link](https://microsoft.github.io/GlobalSecureAccess/How-To/HardenWinGSA)
 
 ### 🌐 Microsoft Entra private network connector
 
 - [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
-- [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
-- 💡 Domain join the connector or not?
+- **High availability and load balancing**
+    - [High availability and load balancing of your private network connectors and applications](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-high-availability-load-balancing)
+    - [Optimize traffic flow with Microsoft Entra application proxy](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-network-topology)
+- **Networking**
+    - [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
+- **Domain join the connector or not?**
     - AD Kerberos SSO - No domain join required
     - Kerberos constraint delegation (KCD) with app proxy - Domain join required [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#recommendations-for-the-connector-server)
 - Min. Windows Server 2016

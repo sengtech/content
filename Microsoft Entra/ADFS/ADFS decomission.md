@@ -11,6 +11,9 @@
 
 - Organization branding
 - Device enrollment ⚠️
+- Applications may use a federated protocol that is not available in Entra (Shibboleth) - [Link](https://dirteam.com/sander/2025/03/17/from-the-field-three-gotchas-when-migrating-applications-from-ad-fs-to-entra/)
+- Applications may use an outdated attribute for Name ID (userPrincipalName/sAMAccountName)  - [Link](https://dirteam.com/sander/2025/03/17/from-the-field-three-gotchas-when-migrating-applications-from-ad-fs-to-entra/)
+- User assignment does not support group nesting  - [Link](https://dirteam.com/sander/2025/03/17/from-the-field-three-gotchas-when-migrating-applications-from-ad-fs-to-entra/)
 
 ### Logon Hours
 

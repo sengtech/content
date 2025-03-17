@@ -81,7 +81,7 @@ Name of  application:
 
 ## Domain controllers
 
-Please note all domaincontrollers in your environment
+Please note all domain controllers in your environment
 
 | Hostname | FDQN | IP |
 | --- | --- | --- |

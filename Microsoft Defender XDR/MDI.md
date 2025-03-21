@@ -33,6 +33,13 @@
 
 <br>
 
+## Consideration
+
+- Multiple forrests, domains et.c.
+
+
+<br>
+
 ## Deployment steps
 
 ### ➡️ Tools

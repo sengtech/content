@@ -79,6 +79,14 @@ The MDI sensor needs to be installed on all
 - [Configure a Directory Service Account for Defender for Identity with a gMSA](https://learn.microsoft.com/en-us/defender-for-identity/deploy/create-directory-service-account-gmsa)
 - [Login as a service](https://learn.microsoft.com/en-us/defender-for-identity/deploy/create-directory-service-account-gmsa#verify-that-the-gmsa-account-has-the-required-rights)
 
+<br>
+
+> [!IMPORTANT]
+> **Group:** `mdiSvcGroup01` <br>
+> For anything beyond Domain Controllers - add these servers to this group
+
+<br>
+
 ### ➡️ Configure SAM-R
 
 - [Configure SAM-R to enable lateral movement path detection in Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/deploy/remote-calls-sam)

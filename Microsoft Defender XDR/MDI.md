@@ -63,6 +63,8 @@ The MDI sensor needs to be installed on all
 
 - [Activate Microsoft Defender for Identity capabilities directly on a domain controller](https://learn.microsoft.com/en-us/defender-for-identity/deploy/activate-capabilities)
 
+<br>
+
 ## Post-Deployment steps
 
 ### ➡️ Configure Windows event collection
@@ -95,3 +97,22 @@ The MDI sensor needs to be installed on all
 
 - Using a dedicated gMSA as an action account is ***optional***
 - [Instructions](https://learn.microsoft.com/en-us/defender-for-identity/deploy/manage-action-accounts)
+  
+<br>
+
+## Other
+
+### ➡️ AD Recycle bin
+Grayed out if already enabled (Active Directory Admin Center):
+![CS_2025-03-24_1507@2x](https://github.com/user-attachments/assets/ab18ddd0-a5aa-430d-a5d1-d06c4c0a16ce)
+
+# Check if enabled in AD 
+```
+Get-ADOptionalFeature -Filter 'Name -like "*Recycle Bin*"' | Select-Object Name,EnabledScopes 
+```
+**EnabledScopes responses**
+| Value | Status |
+| ------------- | ------------- |
+| { } | Not yet enabled (cannot disable) |
+| {CN=NTDS Settings,CN=DC,CN=Servers,CN=MSSEC-SITE,CN=Sites,CN=Configuration,DC=mssec,DC=se} | Enabled |
+

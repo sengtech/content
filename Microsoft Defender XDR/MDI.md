@@ -106,7 +106,7 @@ The MDI sensor needs to be installed on all
 Grayed out if already enabled (Active Directory Admin Center):
 ![CS_2025-03-24_1507@2x](https://github.com/user-attachments/assets/ab18ddd0-a5aa-430d-a5d1-d06c4c0a16ce)
 
-# Check if enabled in AD 
+Check if enabled in AD 
 ```
 Get-ADOptionalFeature -Filter 'Name -like "*Recycle Bin*"' | Select-Object Name,EnabledScopes 
 ```

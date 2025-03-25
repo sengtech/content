@@ -105,7 +105,14 @@ The MDI sensor needs to be installed on all
 
 - Using a dedicated gMSA as an action account is ***optional***
 - [Instructions](https://learn.microsoft.com/en-us/defender-for-identity/deploy/manage-action-accounts)
-  
+
+### ➡️ Automated Response Exclusions
+
+- [Configure Defender for Identity automated response exclusions](https://learn.microsoft.com/en-us/defender-for-identity/automated-response-exclusions)
+
+### ➡️ Entity Tags
+- [Defender for Identity entity tags in Microsoft Defender XDR](https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags)
+
 <br>
 
 ## Other

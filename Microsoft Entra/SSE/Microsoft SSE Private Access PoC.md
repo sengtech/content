@@ -4,7 +4,7 @@
 
 - Walkthrough of high-level requirements
 - Deciding on stakeholders
-- User scenarios in scope
+- Use cases
 - Agree on timeline
 
 ## Scoping

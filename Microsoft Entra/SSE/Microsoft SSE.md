@@ -18,6 +18,9 @@
 ### Microsoft Entra Internet Access
 [Product page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-internet-access)
 
+[Web content filtering categories](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-web-content-filtering-categories)<br>
+[What is the difference between Microsoft Entra Internet Access web categories and Microsoft Defender for Endpoint web categories?](https://learn.microsoft.com/en-us/entra/global-secure-access/resource-faq#what-is-the-difference-between-microsoft-entra-internet-access-web-categories-and-microsoft-defender-for-endpoint-web-categories--)
+
 ### Documentation
 [Global Secure Access documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/)
 

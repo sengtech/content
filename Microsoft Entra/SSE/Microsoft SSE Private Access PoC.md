@@ -27,7 +27,6 @@
 - [Release history](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-windows-client-release-history)
 - [AVD/Windows 365](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client#prerequisites)
 - Windows 10/11 - Hybrid- or Entra joined
-- Azure Virtual Desktop single-session and Windows 365 is supported
 - Local administrator credentials are required to install or upgrade the client
 - Android - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-android-client?tabs=device-administrator)
 - iOS/iPadOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)

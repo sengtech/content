@@ -21,13 +21,14 @@
 
 - Microsoft Entra Suite trial licenses https://aka.ms/EntraSuiteTrial
 
-### 💻 Client Device
+### 💻 Client
 
 - [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 - [Release history](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-windows-client-release-history)
 - [AVD/Windows 365](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client#prerequisites)
 - Windows 10/11 - Hybrid- or Entra joined
 - Local administrator credentials are required to install or upgrade the client
+- GSA client is optimized to create the tunnel with nearest deployment based on anycast IP ranges
 - Android - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-android-client?tabs=device-administrator)
 - iOS/iPadOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
 - Hardening - [Link](https://microsoft.github.io/GlobalSecureAccess/How-To/HardenWinGSA)

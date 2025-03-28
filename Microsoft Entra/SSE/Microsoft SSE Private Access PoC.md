@@ -53,6 +53,7 @@
 ### 🔒 Entra ID
 
 - Group for PoC users
+    - Nested groups are not supported 
 - Break-glass accounts provided
 
 ### 👤 AD Kerberos SSO

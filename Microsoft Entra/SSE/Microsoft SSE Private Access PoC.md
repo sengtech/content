@@ -46,6 +46,7 @@
     - Kerberos constraint delegation (KCD) with app proxy - Domain join required [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#recommendations-for-the-connector-server)
 - **Troubleshooting**
     - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors#connector-deployments-on-hardened-environments)
+    - Connector installation fail - Windows firewall blocking outbound traffic for scripts?
 - Min. Windows Server 2016
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available

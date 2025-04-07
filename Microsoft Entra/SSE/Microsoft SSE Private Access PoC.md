@@ -98,7 +98,11 @@ List DNS suffixes to be published:
 
 ## **⚠️ Known limitations**
 
-- Disable DNS over HTTPS (Secure DNS) | [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#dns-over-https-not-supported)
-- Disable QUIC | [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#quic-disabled-in-microsoft-edge)
-- Guidance on disabling IPv6 on Windows | [Link](https://learn.microsoft.com/troubleshoot/windows-server/networking/configure-ipv6-in-windows#:~:text=will%20be%20preferred.-,Disable%20IPv6,-Decimal%20255%0AHexadecimal)
-- DNS / NRPT Troubleshooting | [Link](https://microsoft.github.io/GlobalSecureAccess/Troubleshooting/WindowsClientTroubleshooting#how-does-dns-work-with-gsa)
+- Disable DNS over HTTPS (Secure DNS)
+    - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#dns-over-https-not-supported)
+- Disable QUIC
+    - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#quic-disabled-in-microsoft-edge)
+- Guidance on disabling IPv6 on Windows
+    - [Link](https://learn.microsoft.com/troubleshoot/windows-server/networking/configure-ipv6-in-windows#:~:text=will%20be%20preferred.-,Disable%20IPv6,-Decimal%20255%0AHexadecimal)
+- DNS / NRPT Troubleshooting
+    - [Link](https://microsoft.github.io/GlobalSecureAccess/Troubleshooting/WindowsClientTroubleshooting#how-does-dns-work-with-gsa)

@@ -44,6 +44,8 @@
 - **Domain join the connector or not?**
     - AD Kerberos SSO - No domain join required
     - Kerberos constraint delegation (KCD) with app proxy - Domain join required [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#recommendations-for-the-connector-server)
+- **Troubleshooting**
+    - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-connectors#connector-deployments-on-hardened-environments)
 - Min. Windows Server 2016
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available

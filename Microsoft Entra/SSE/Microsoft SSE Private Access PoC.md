@@ -71,10 +71,8 @@
 
 ### 💼 Entra ID roles
 
-- Global Secure Access Administrator
-- Application Administrator
-- Conditional Access Administrator
-- For installing Private Network Connector: At least Application Administrator
+- Documentation and table of Global Secure Access permissions and roles
+    - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-role-based-permissions#role-based-permissions)
 
 ## Application Segments
 

@@ -20,6 +20,7 @@
 ### 🪪 Licensing
 
 - Microsoft Entra Suite trial licenses https://aka.ms/EntraSuiteTrial
+- ⚠️ You need Global Admin privileges to activate the trial license
 
 ### 💻 Client
 

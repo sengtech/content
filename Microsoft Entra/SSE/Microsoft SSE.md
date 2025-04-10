@@ -7,7 +7,9 @@
 ### Licensing
 [Licensing overview](https://learn.microsoft.com/en-us/entra/global-secure-access/overview-what-is-global-secure-access#licensing-overview)<br>
 [Entra Suite Licensing](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing)<br>
-[Entra Suite Trial](https://aka.ms/EntraSuiteTrial)
+[Entra Suite Trial](https://aka.ms/EntraSuiteTrial) <br>
+[Private Access Trial](https://aka.ms/PrivateAccessTrial) <br>
+[Internet Access Trial](https://aka.ms/InternetAccessTrial)
 
 ### Microsoft Entra Private Access
 [Product Page](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-private-access)<br>

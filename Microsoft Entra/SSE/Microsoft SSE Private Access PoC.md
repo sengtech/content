@@ -97,6 +97,8 @@ List DNS suffixes to be published:
 
 ## **⚠️ Known limitations**
 
+- Complete list of known limitations
+    - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-current-known-limitations?tabs=windows-client)
 - Disable DNS over HTTPS (Secure DNS)
     - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/troubleshoot-global-secure-access-client-diagnostics-health-check#dns-over-https-not-supported)
 - Disable QUIC

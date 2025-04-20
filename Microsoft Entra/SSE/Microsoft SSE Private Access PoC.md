@@ -27,6 +27,7 @@
 - [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client)
 - [Release history](https://learn.microsoft.com/en-us/entra/global-secure-access/reference-windows-client-release-history)
 - [AVD/Windows 365](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client#prerequisites)
+- [EDR and AV coexistence with Global Secure Access client](https://learn.microsoft.com/en-us/entra/global-secure-access/concept-edr-antivirus-coexistence)
 - Windows 10/11 - Hybrid- or Entra joined
 - Local administrator credentials are required to install or upgrade the client
 - GSA client is optimized to create the tunnel with nearest deployment based on anycast IP ranges

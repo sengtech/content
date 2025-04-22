@@ -44,6 +44,10 @@
 
 ### ➡️ Tools
 
+**Test MDI Readiness**
+
+- [Test-MdiReadiness.ps1](https://github.com/microsoft/Microsoft-Defender-for-Identity/tree/main/Test-MdiReadiness)
+
 **PowerShell module**
 
 - [DefenderForIdentity module documentation](https://learn.microsoft.com/en-us/powershell/module/defenderforidentity/?view=defenderforidentity-latest)

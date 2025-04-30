@@ -14,6 +14,7 @@
 - Kerberos SSO to AD resources?
 - Conditional Access policies
 - ⚠️ Existing conflicting DirectAccess (DA) or legacy VPN configurations. In particular NRPT-table entries.
+- ⚠️ **SCCM Boundary groups** - Defined by network location. Clients on the intranet evaluate their current network location and then use that information to identify boundary groups to which they belong. Possible solutions - Define every single IP address to a single or handful of boundary groups.
 
 ## Prerequisites
 

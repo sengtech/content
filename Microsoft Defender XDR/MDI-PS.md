@@ -26,3 +26,8 @@ Test-MDIDSA -Identity "mdiSvc01" -Detailed
 ```
 Set-MDIConfiguration -Mode Domain -Configuration All -Identity gMSA-MDI -verbose
 ```
+
+### Test configuration
+```
+Test-MDIConfiguration -Mode Domain -Identity gMSA-MDI -Configuration All -Verbose
+```

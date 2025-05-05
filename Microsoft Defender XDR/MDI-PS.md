@@ -31,3 +31,8 @@ Set-MDIConfiguration -Mode Domain -Configuration All -Identity gMSA-MDI -verbose
 ```
 Test-MDIConfiguration -Mode Domain -Identity gMSA-MDI -Configuration All -Verbose
 ```
+
+### Configuration report
+```
+New-MDIConfigurationReport -Path C:\temp -OpenHtmlReport
+```

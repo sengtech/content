@@ -41,6 +41,7 @@ Set-MDIConfiguration -Mode Domain -Configuration All -Identity mdiSvc01 -Verbose
 ### Test configuration
 ```
 Test-MDIConfiguration -Mode Domain -Identity mdiSvc01 -Configuration All -Verbose
+Test-MDIConfiguration -Mode Domain -Identity mdiSvc01 -Configuration All -GpoNamePrefix "MDI" -Verbose
 ```
 
 ### Configuration report

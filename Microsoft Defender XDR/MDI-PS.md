@@ -1,5 +1,14 @@
 # MDI PowerShell Module
 
+[Reference Microsoft Learn](https://learn.microsoft.com/en-us/powershell/defenderforidentity/overview-defenderforidentity?view=defenderforidentity-latest)
+
+## Install module
+```
+Install-Module -Name DefenderForIdentity
+Import-Module -Name GroupPolicy -SkipEditionCheck
+```
+
+
 ## 👤 Create Directory Service Accounts (DSA) using gMSA 
 
 ### Create account

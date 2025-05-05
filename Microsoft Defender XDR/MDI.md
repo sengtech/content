@@ -57,7 +57,8 @@
 <br>
 
 > [!IMPORTANT]
-> If you are prompted for the Identity name, this is the Identity to be used to run the installed sensor.
+> - If you are prompted for the Identity name, this is the Identity to be used to run the installed sensor.
+> - To use the MDI PowerShell module, it must be run on a server or Domain Controller with both the Active Directory and Group Policy modules installed.
 
 <br>
 

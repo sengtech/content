@@ -38,7 +38,7 @@ Set-MDIConfiguration -Mode Domain -Configuration All -Identity mdiSvc01 -verbose
 
 ### Test configuration
 ```
-Test-MDIConfiguration -Mode Domain -Identity gMSA-MDI -Configuration All -Verbose
+Test-MDIConfiguration -Mode Domain -Identity mdiSvc01 -Configuration All -Verbose
 ```
 
 ### Configuration report

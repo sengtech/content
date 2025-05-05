@@ -44,8 +44,8 @@
 
 ### ➡️ Tools
 
-**Test MDI Readiness**
-
+**Test & Validation**
+- [Validate the Network Infrastructure using Test-MDISensorApiConnection](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/deploying-microsoft-defender-for-identity/4363501)
 - [Test-MdiReadiness.ps1](https://github.com/microsoft/Microsoft-Defender-for-Identity/tree/main/Test-MdiReadiness)
 
 **PowerShell module**

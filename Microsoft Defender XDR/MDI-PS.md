@@ -2,7 +2,7 @@
 
 [Reference Microsoft Learn](https://learn.microsoft.com/en-us/powershell/defenderforidentity/overview-defenderforidentity?view=defenderforidentity-latest)
 
-## Install module
+## 📦 Install module
 ```
 Install-Module -Name DefenderForIdentity
 Import-Module -Name GroupPolicy -SkipEditionCheck

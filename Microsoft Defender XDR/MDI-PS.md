@@ -23,6 +23,7 @@ New-MDIDSA -Identity “mdiSvc01” -GmsaGroupName “gMSA-MDI-Group” -Verbose
 > [!NOTE]
 > - If you plan on using Active Directory Federation Services (ADFS) or Active Directory Certificate Services (ADCS), the security group created in the previous step will need to include the ADFS and/or ADCS servers.
 > - [Login in as a service](https://learn.microsoft.com/en-us/defender-for-identity/deploy/create-directory-service-account-gmsa#verify-that-the-gmsa-account-has-the-required-rights)
+> - If you use the Group Policy Management Editor to configure the Log on as a service setting, make sure you add both ```NT Service\All Services``` and the ```gMSA account``` you created.
 
 <br>
 

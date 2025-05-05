@@ -53,6 +53,7 @@
 - [DefenderForIdentity module documentation](https://learn.microsoft.com/en-us/powershell/module/defenderforidentity/?view=defenderforidentity-latest)
 - [Introducing the new PowerShell Module for Microsoft Defender for Identity](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/introducing-the-new-powershell-module-for-microsoft-defender-for-identity/4028734)
 - [Defender for Identity PowerShell module update](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/defender-for-identity-powershell-module-update/4208525)
+- [PS deployment guide](MDI-PS.md)
 
 <br>
 

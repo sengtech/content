@@ -13,7 +13,7 @@ Import-Module -Name GroupPolicy -SkipEditionCheck
 
 ### Create account
 ```
-New-MDIDSA -Identity “gMSA-MDI” -GmsaGroupName “gMSA-MDI-Group” -Verbose
+New-MDIDSA -Identity “mdiSvc01” -GmsaGroupName “gMSA-MDI-Group” -Verbose
 ```
 
 <br>

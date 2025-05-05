@@ -33,7 +33,7 @@ Test-MDIDSA -Identity "mdiSvc01" -Detailed
 
 ### Create configuration
 ```
-Set-MDIConfiguration -Mode Domain -Configuration All -Identity mdiSvc01 -verbose
+Set-MDIConfiguration -Mode Domain -Configuration All -Identity mdiSvc01 -Verbose
 ```
 
 ### Test configuration

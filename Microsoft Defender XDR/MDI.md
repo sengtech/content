@@ -54,6 +54,13 @@
 - [Introducing the new PowerShell Module for Microsoft Defender for Identity](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/introducing-the-new-powershell-module-for-microsoft-defender-for-identity/4028734)
 - [Defender for Identity PowerShell module update](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/defender-for-identity-powershell-module-update/4208525)
 
+<br>
+
+> [!IMPORTANT]
+> If you are prompted for the Identity name, this is the Identity to be used to run the installed sensor.
+
+<br>
+
 ### ➡️ Sensor installation
 
 The MDI sensor needs to be installed on all

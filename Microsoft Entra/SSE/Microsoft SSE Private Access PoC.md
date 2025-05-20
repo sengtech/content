@@ -54,7 +54,7 @@
 - Focus on CPU and Networking for machine sizing
 - Azure and AWS Marketplace offering also available
 - Line of sight to destination application needed
-- Currently doesn’t support multi-geo connectors. The cloud service instances for your connector are chosen in the same region as your Microsoft Entra tenant (or the closest region to it) even if you have connectors installed in regions different from your default region.
+- [Multi-geo capabilities](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-enable-multi-geo)
 
 ### 🔒 Entra ID
 

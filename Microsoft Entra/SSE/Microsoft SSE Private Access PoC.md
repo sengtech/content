@@ -44,6 +44,7 @@
     - [Optimize traffic flow with Microsoft Entra application proxy](https://learn.microsoft.com/en-us/entra/identity/app-proxy/application-proxy-network-topology)
 - **Networking**
     - [Allow access to URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
+    - ⚠️ Disable all deep packet inspection on network traffic
 - **Domain join the connector or not?**
     - AD Kerberos SSO - No domain join required
     - Kerberos constraint delegation (KCD) with app proxy - Domain join required [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#recommendations-for-the-connector-server)

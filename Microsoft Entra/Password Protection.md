@@ -24,13 +24,13 @@
 
 ### Deployment steps
 
-- Download required software | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#download-required-software)
+- [Download required software](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#download-required-software)
     - Microsoft Entra Password Protection DC agent (_AzureADPasswordProtectionDCAgentSetup.msi_)
     - Microsoft Entra Password Protection proxy (_AzureADPasswordProtectionProxySetup.exe_)
-- Install and configure the proxy service | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#install-and-configure-the-proxy-service)
-- Install the DC agent service | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#install-the-dc-agent-service)
-- Enable on-premises Microsoft Entra Password Protection | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-operations)
-- Configure custom banned passwords for Microsoft Entra password protection | [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-configure-custom-password-protection)
+- [Install and configure the proxy service](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#install-and-configure-the-proxy-service)
+- [Install the DC agent service](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#install-the-dc-agent-service)
+- [Enable on-premises Microsoft Entra Password Protection](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-operations)
+- [Configure custom banned passwords for Microsoft Entra password protection](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-configure-custom-password-protection)
 
 ---
 

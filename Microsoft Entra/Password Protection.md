@@ -48,7 +48,7 @@ Get-Service AzureADPasswordProtectionProxy | fl
 
 **Register the Microsoft Entra Password Protection proxy server with Microsoft Entra ID**
 
-⚠️ Run this once per proxy server
+⚠️ Run this once _**per proxy server**_
 
 ```powershell
 Register-AzureADPasswordProtectionProxy -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode
@@ -58,6 +58,10 @@ Test-AzureADPasswordProtectionProxyHealth -TestAll
 ```
 
 **Register the on-premises Active Directory forest with the necessary credentials to communicate with Azure**
+
+⚠️ Run this once _**per proxy forrest**_
+
+
 ```powershell
 ##
 Register-AzureADPasswordProtectionForest -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode

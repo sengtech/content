@@ -6,6 +6,8 @@
 
 [Plan and deploy on-premises Microsoft Entra Password Protection](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy)
 
+[Monitor and review logs for on-premises Microsoft Entra Password Protection environments](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-monitor)
+
 ---
 
 ### Prerequisites

@@ -34,6 +34,33 @@
 
 ---
 
+### Powershell
+
+```powershell
+## Import module
+Import-Module AzureADPasswordProtection
+
+## Check that the Microsoft Entra Password Protection proxy service is running
+Get-Service AzureADPasswordProtectionProxy | fl
+```
+
+**Register the Microsoft Entra Password Protection proxy server with Microsoft Entra ID**
+```powershell
+Register-AzureADPasswordProtectionProxy -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode
+
+## Make sure that the changes have taken effect
+Test-AzureADPasswordProtectionProxyHealth -TestAll
+```
+
+**Register the on-premises Active Directory forest with the necessary credentials to communicate with Azure**
+```powershell
+Register-AzureADPasswordProtectionForest -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode
+
+## Make sure that the changes have taken effect
+Test-AzureADPasswordProtectionProxyHealth -TestAll
+```
+---
+
 ### Modes
 
 - **Audit**

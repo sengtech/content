@@ -56,7 +56,11 @@ Test-AzureADPasswordProtectionProxyHealth -TestAll
 
 **Register the on-premises Active Directory forest with the necessary credentials to communicate with Azure**
 ```powershell
+##
 Register-AzureADPasswordProtectionForest -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode
+
+## Provide your own credentials
+Register-AzureADPasswordProtectionForest -AccountUpn 'yourglobaladmin@yourtenant.onmicrosoft.com' -AuthenticateUsingDeviceCode -ForestCredential (Get-Credential)
 
 ## Make sure that the changes have taken effect
 Test-AzureADPasswordProtectionProxyHealth -TestAll

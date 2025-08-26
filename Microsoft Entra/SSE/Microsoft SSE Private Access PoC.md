@@ -36,7 +36,7 @@
 - iOS/iPadOS - [Link](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-ios-client)
 - Hardening - [Link](https://microsoft.github.io/GlobalSecureAccess/How-To/HardenWinGSA)
 
-### 🌐 Microsoft Entra private network connector
+### 🌐 Private Network Connector
 
 - [Documentation](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#install-and-register-a-connector)
 - **High availability and load balancing**
@@ -110,3 +110,4 @@ List DNS suffixes to be published:
     - [Link](https://learn.microsoft.com/troubleshoot/windows-server/networking/configure-ipv6-in-windows#:~:text=will%20be%20preferred.-,Disable%20IPv6,-Decimal%20255%0AHexadecimal)
 - DNS / NRPT Troubleshooting
     - [Link](https://microsoft.github.io/GlobalSecureAccess/Troubleshooting/WindowsClientTroubleshooting#how-does-dns-work-with-gsa)
+

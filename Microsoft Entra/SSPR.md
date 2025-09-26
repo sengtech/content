@@ -68,7 +68,7 @@ Is Password-writeback enabled?
 
 `Entra Admin Center → Protection → Password reset → On-premises integration`
 
-### AD minimum password age
+### 🔑 AD minimum password age
 - For password writeback to work most efficiently, the group policy for Minimum password age must be set to 0.<br>
 [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-enable-sspr-writeback#configure-account-permissions-for-microsoft-entra-connect)
 

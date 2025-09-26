@@ -7,11 +7,30 @@ Microsoft Entra self-service password reset (SSPR) lets users reset their passwo
 ### ✅ Prerequisites
 
 - At least Microsoft Entra ID P1 (synced users or writeback)
-- At least Hybrid Identity Administrator / Authentication Policy Administrator
+- At least **Hybrid Identity Administrator** / **Authentication Policy Administrator**
+
+### 🤔 Considerations
+
+- Is the Authencation Methods migration completed?
+- **SSPR settings**
+    - Number of methods
+    - Require registration
+
+### 🚪End user portals
+- [aka.ms/sspr](https://aka.ms/sspr)
+- [aka.ms/mysecurityinfo](https://aka.ms/mysecurityinfo)
+
+### 🔐 What authentication methods are available for SSPR?
+- [How each authentication method works](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods#how-each-authentication-method-works)
+
+### 🆘 Servicedesk considerations
+
+- Password hash synchronization back to Microsoft Entra ID is scheduled for every 2 minutes
+- Users need to register, using the right method
 
 ### 🚶‍♂️Steps
 
-For hybrid deployment
+**For hybrid deployment**
 
 1. Enable SSPR in Microsoft Entra ID
 2. Enable password writeback in Microsoft Entra Connect Sync
@@ -20,31 +39,12 @@ For hybrid deployment
     1. The group policy for Minimum password age must be set to 0 for password writeback to work most efficiently.
     2. Browse to Default Domain Policy > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.
 
-### 🤔 Considerations
-
-- Is the Authencation Methods migration completed?
-
-### 🚪End user portals
-
-[aka.ms/sspr](https://aka.ms/sspr)
-
-[aka.ms/mysecurityinfo](https://aka.ms/mysecurityinfo)
-
-### 🔐 What authentication methods are available for SSPR?
-
-[How each authentication method works](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods#how-each-authentication-method-works)
-
-### 🤔 Servicedesk considerations
-
-- Password hash synchronization back to Microsoft Entra ID is scheduled for every 2 minutes
-- Users need to register, using the right method
-
 ### 🔀 Administrator reset policy differences
 
-By default, administrator accounts are enabled for self-service password reset, and a strong default two-gate password reset policy is enforced. Administrators with sensitive roles should use phishing-resistant authentication methods only and therefore ***not*** able to reset their password using SSPR.
+By default, administrator accounts are enabled for self-service password reset, and a strong default two-gate password reset policy is enforced. Administrators with sensitive roles should use phishing-resistant authentication methods only and therefore ***not*** able to reset their password using SSPR.<br>
 [Link](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-policy#administrator-reset-policy-differences) 
 
-### 🔗 Links
+### 🔗 Resources
 
 [Tutorial: Enable users to unlock their account or reset passwords using Microsoft Entra self-service password reset](https://learn.microsoft.com/en-us/entra/identity/authentication/tutorial-enable-sspr)
 

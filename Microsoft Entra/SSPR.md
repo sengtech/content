@@ -12,6 +12,7 @@ Microsoft Entra self-service password reset (SSPR) lets users reset their passwo
 ### 🤔 Considerations
 
 - Is the Authencation Methods migration completed?
+- When enabling SSPR in combination with "Number of days before users are asked to re-confirm..." - this might trigger an instant confirmation dialogue for users. It might also become a blocker if registration is only allowed from named network locations.
 - **SSPR settings**
     - Number of methods
     - Require registration

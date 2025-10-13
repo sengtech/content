@@ -16,6 +16,7 @@
 
 - All machines, including domain controllers, that have Microsoft Entra Password Protection components installed must have the Universal C Runtime installed.
 - An account that has Active Directory domain administrator privileges in the forest root domain to register the Windows Server Active Directory forest with Microsoft Entra ID.
+- A **Global Administrator** is required to register the Microsoft Entra Password Protection proxy service for the first time in a given tenant. 
 - Network connectivity must exist between at least one domain controller in each domain and at least one server that hosts the proxy service for Microsoft Entra Password Protection. This connectivity must allow the domain controller to access RPC endpoint mapper port 135 and the RPC server port on the proxy service.
     - By default, the RPC server port is a dynamic RPC port from the range (49152 - 65535), but it can be configured to use a static port.
 - **DC Agent**

@@ -1,36 +1,41 @@
 Event ID,Description,Type
+10000,"The password filter dll has successfully loaded and initialized.",Operational
+10012,"The password filter dll failed a password change request due to an internal error.",Error | Change
+10013,"The password filter dll failed a password set request due to an internal error.",Error | Set
 10014,"The changed password for the specified user was validated as compliant with the current Azure password policy.",Pass | Change
 10015,"The reset password for the specified user was validated as compliant with the current Azure password policy.",Pass | Set
-10016,"The changed password for the specified user was rejected because it did not comply with the current Azure password policy.",Fail | Change | Customer Psw Policy
-10017,"The reset password for the specified user was rejected because it did not comply with the current Azure password policy.",Fail | Set | Customer Psw Policy
-10024,"The changed password for the specified user would normally have been rejected because it did not comply with the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Change | Customer Psw Policy
-10025,"The reset password for the specified user would normally have been rejected because it did not comply with the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Set | Customer Psw Policy
-30002,"The changed password for the specified user was rejected because it matched at least one of the tokens present in the per-tenant banned password list of the current Azure password policy.",Fail | Change | Customer Psw Policy
-30003,"The reset password for the specified user was rejected because it matched at least one of the tokens present in the per-tenant banned password list of the current Azure password policy.",Fail | Set | Customer Psw Policy
-30004,"The changed password for the specified user was rejected because it matched at least one of the tokens present in the Microsoft global banned password list of the current Azure password policy.",Fail | Change | Microsoft Psw Policy
-30005,"The reset password for the specified user was rejected because it matched at least one of the tokens present in the Microsoft global banned password list of the current Azure password policy.",Fail | Set | Microsoft Psw Policy
-30007,"The reset password for the specified user would normally have been rejected because it matches at least one of the tokens present in the per-tenant banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Set | Customer Psw Policy
-30008,"The changed password for the specified user would normally have been rejected because it matches at least one of the tokens present in the per-tenant banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Change | Customer Psw Policy
-30009,"The reset password for the specified user would normally have been rejected because it matches at least one of the tokens present in the Microsoft global banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Set | Microsoft Psw Policy
-30010,"The changed password for the specified user would normally have been rejected because it matches at least one of the tokens present in the Microsoft global banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Change | Microsoft Psw Policy
-30021,"The changed password for the specified user was rejected because it matches one or more of the user's account names.",Fail | Change | Username
-30022,"The reset password for the specified user was rejected because it matches one or more of the user's account names.",Fail | Set | Username
-30023,"The reset password for the specified user would normally have been rejected because it matches one or more of the user's account names. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Set | Username
-30024,"The changed password for the specified user would normally have been rejected because it matches one or more of the user's account names. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Change | Username
-30026,"The changed password for the specified user was rejected because it matched multiple tokens in the combined Microsoft global and per-tenant banned password list of the current Azure password policy.",Fail | Change | Combined Psw Policy
-30027,"The reset password for the specified user was rejected because it matched multiple tokens in the combined Microsoft global and per-tenant banned password list of the current Azure password policy.",Fail | Set | Combined Psw Policy
-30028,"The changed password for the specified user would normally have been rejected because it matched multiple tokens in the combined Microsoft global and per-tenant banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Change | Combined Psw Policy
-30029,"The reset password for the specified user would normally have been rejected because it matched multiple tokens in the combined Microsoft global and per-tenant banned password list of the current Azure password policy. The current Azure password policy is configured for audit-only mode so the password was accepted.",Audit | Set | Combined Psw Policy
-10000,"The password filter dll has successfully loaded and initialized.",
-20000,"The Azure AD Password Protection DC Agent service is starting.",
-20001,"The Azure AD Password Protection DC Agent service has successfully started.",
-20010,"The Azure AD Password Protection DC Agent service has received a SERVICE_CONTROL_INTERROGATE message.",
-30006,"The service is now enforcing the following Azure password policy.",
-30030,"The following forest certificate credential is being used for authentication to Azure.",
-30031,"A renewed forest certificate credential was obtained from Azure and successfully persisted in Active Directory.",
-30035,"The service was able to successfully bind to and call the following Azure AD Password Protection proxy:",
-30036,"The service failed to bind to the following Azure AD Password Protection proxy:",
-30038,"The service verified that the password filter dll has been successfully loaded with working end-to-end communication.",
-30042,"The service has verified that the domain is using Distributed File System Replication (DFSR) for sysvol replication.",
-30043,"The Azure AD Password Protection DCAgent service successfully sent a heartbeat message to Azure. End-to-end communication with Azure is working.",
-30044,"The Azure AD Password Protection DCAgent service failed to send a heartbeat message to Azure. Please check debug logs for more information.",
+10016,"The changed password for the specified user was rejected because it did not comply with the current Azure password policy.",Fail | Change
+10017,"The reset password for the specified user was rejected because it did not comply with the current Azure password policy.",Fail | Set
+10024,"The changed password for the specified user would normally have been rejected (Audit-only mode).",Audit | Change
+10025,"The reset password for the specified user would normally have been rejected (Audit-only mode).",Audit | Set
+20000,"The Azure AD Password Protection DC Agent service is starting.",Operational
+20001,"The Azure AD Password Protection DC Agent service has successfully started.",Operational
+20010,"The Azure AD Password Protection DC Agent service has received a SERVICE_CONTROL_INTERROGATE message.",Operational
+30001,"The password for the specified user was accepted because an Azure password policy is not available yet.",Warning
+30002,"The changed password was rejected because it matched the per-tenant banned password list.",Fail | Change | Customer Policy
+30003,"The reset password was rejected because it matched the per-tenant banned password list.",Fail | Set | Customer Policy
+30004,"The changed password was rejected because it matched the Microsoft global banned password list.",Fail | Change | Microsoft Policy
+30005,"The reset password was rejected because it matched the Microsoft global banned password list.",Fail | Set | Microsoft Policy
+30006,"The service is now enforcing the following Azure password policy.",Operational
+30007,"The reset password would have failed the per-tenant list (Audit-only mode).",Audit | Set | Customer Policy
+30008,"The changed password would have failed the per-tenant list (Audit-only mode).",Audit | Change | Customer Policy
+30009,"The reset password would have failed the Microsoft global list (Audit-only mode).",Audit | Set | Microsoft Policy
+30010,"The changed password would have failed the Microsoft global list (Audit-only mode).",Audit | Change | Microsoft Policy
+30019,"The most recently obtained Azure password policy was configured to be disabled.",Warning
+30021,"The changed password was rejected because it matches one or more of the user's account names.",Fail | Change | Username
+30022,"The reset password was rejected because it matches one or more of the user's account names.",Fail | Set | Username
+30023,"The reset password would have failed due to username match (Audit-only mode).",Audit | Set | Username
+30024,"The changed password would have failed due to username match (Audit-only mode).",Audit | Change | Username
+30026,"The changed password was rejected because it matched multiple tokens in the combined policy.",Fail | Change | Combined
+30027,"The reset password was rejected because it matched multiple tokens in the combined policy.",Fail | Set | Combined
+30028,"The changed password would have failed the combined policy (Audit-only mode).",Audit | Change | Combined
+30029,"The reset password would have failed the combined policy (Audit-only mode).",Audit | Set | Combined
+30030,"The Microsoft Entra Password Protection Proxy service was successfully started.",Proxy | Operational
+30031,"A renewed forest certificate credential was obtained from Azure and successfully persisted.",Operational
+30034,"A newer version of the DC agent software is available.",Warning
+30035,"The service was able to successfully bind to and call a Password Protection proxy.",Operational
+30036,"The service failed to bind to a Password Protection proxy.",Error
+30038,"The Proxy service failed a request from a DC Agent due to a transient error.",Proxy | Error
+30042,"The Microsoft Entra Password Protection Proxy service is shutting down.",Proxy | Operational
+30043,"The DC Agent service successfully sent a heartbeat message to Azure.",Operational
+30044,"The DC Agent service failed to send a heartbeat message to Azure.",Error
